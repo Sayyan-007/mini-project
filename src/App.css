@@ -1,0 +1,75 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+.column{
+  background:transparent;
+}
+.column:hover{
+  background:#fff;
+  transform: scaleY(1.01);
+}
+.placeholder-text{
+  width: 75%;   
+  padding: 10px;  
+  color: white;  
+  background-color: transparent; 
+  border: 3px solid white;
+  border-radius: 25px;
+  font-size: 16px;
+  outline: none;
+}
+.scroll-hidden {
+  overflow-y: scroll;  
+  height: 100vh;               
+  -ms-overflow-style: none;   
+  scrollbar-width: none;  
+}
+
+.scroll-hidden::-webkit-scrollbar {
+  display: none;       
+}
+button {
+  padding: 0.5rem;
+  padding-left: 20px;
+  padding-right: 20px;
+  /* width: 75%; */
+  font-weight: bold;        
+  border: 1px solid black;  
+  color: #fff;
+  background-color: #5D2DE6;
+}
+.icon{
+  margin-bottom: 0.25rem;
+}
+/* Buttons */
+.btn-generate {
+  background-color: #5D2DE6;
+  color: white;
+}
+
+.btn-generated {
+  background-color: #A9A9A9;
+  color: #000;
+  cursor: not-allowed;
+}
+.btn-copy {
+  background-color: #5D2DE6;
+  color: white;
+}
+
+.btn-copied {
+  background-color: #A9A9A9;
+  color: #000;
+  cursor: not-allowed;
+}
+.btn-qrcode {
+  background-color: #5D2DE6;
+  color: white;
+}
+
+.btn-qrcoded {
+  background-color: #A9A9A9;
+  color: #000;
+  cursor: not-allowed;
+}
