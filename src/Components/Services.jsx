@@ -1,4 +1,4 @@
-import { FaArrowRight } from 'react-icons/fa';
+import { FaArrowRight, FaEye } from 'react-icons/fa';
 import { XCircle, CheckCircle, Mail } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import '../App.css'
@@ -45,7 +45,7 @@ const Services = () => {
                 </div>
                 <div className="col-lg-3 col-md-6 d-flex">
                     <div className="w-100 text-center p-3 d-flex flex-column">
-                        <h4 className="fw-bold p-3 m-0">Long <FaArrowRight className="text-success" /> Short</h4>
+                        <h4 className="fw-bold p-3 m-0">Link Preview <FaEye className="text-danger" /></h4>
                         <div className="text-center py-3">
                             <img src="link.png" style={{ width: '50px', height: 'auto' }} className="mx-auto" alt="" />
                             <p className="px-4 pt-2 fw-medium flex-grow-1">Link will show a preview of the content inside.</p>
