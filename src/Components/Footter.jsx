@@ -1,7 +1,7 @@
 const Footter=()=>{
     return(
-        <div id="contactUs" className="container-fluid py-5 text-center" style={{ backgroundColor: '#f8f9fa', color: '#212529' }}>
-            <div className="row justify-content-center pt-5">
+        <div id="contactUs" className="container-fluid py-5 text-start" style={{ backgroundColor: '#f8f9fa', color: '#212529' }}>
+            <div className="ps-5 row justify-content-center pt-5">
                 <div className="col-lg-3 col-md-6">
                     <div className="d-flex flex-column gap-2" style={{ listStyle: "none", }}>
                         <p className="fw-semibold fs-5">Navigation & Quick Links</p>

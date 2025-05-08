@@ -30,13 +30,8 @@ const ShortURL=()=>{
         setloading(true)
         try 
         {
-            const response = await axios.get(`https://ulvis.net/api.php?`,{params:{url:longURl}})
-            if(response.data.includes('Error'))
-                {
-                    setShortURL('')
-                    toast.error('Wrong URL..!!')
-                    return;
-                }
+            const response = await axios.get(`https://tinyurl.com/api-create.php?url=${longURl}`)
+            console.log(response);
             setShortURL(response.data)
             toast.success("Short Link Created")
         }
